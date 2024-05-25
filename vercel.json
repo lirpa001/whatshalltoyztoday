@@ -11,5 +11,11 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ]
+  ],
+  "functions": {
+    "api/*": {
+      "memory": 512, // 设置内存
+      "maxDuration": 30 // 设置最大执行时间为30秒
+    }
+  }
 }
